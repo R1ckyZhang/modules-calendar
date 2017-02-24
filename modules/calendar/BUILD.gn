@@ -17,5 +17,5 @@ flutter_app("calendar") {
     "//lib/flutter/packages/flutter",
   ]
 
-  analysis_options = "//apps/calendar/.analysis_options"
+  analysis_options = "//apps/modules/.analysis_options"
 }
