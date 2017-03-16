@@ -4,6 +4,6 @@
 
 group("calendar") {
   deps = [
-    "//apps/calendar/modules",
+    "//apps/modules/calendar/modules",
   ]
 }
