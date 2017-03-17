@@ -11,5 +11,7 @@ common_root := $(realpath $(fuchsia_root)/apps/modules/common/tools/common)
 common_makefile := $(realpath $(common_root)/Makefile)
 
 PROJECT := calendar
+FLUTTER_TARGET := modules/calendar
+FUCHSIA_TARGET := calendar
 
 include $(common_makefile)

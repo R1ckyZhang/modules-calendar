@@ -1,4 +1,4 @@
-# Chat
+# Calendar
 
 > Status: Experimental
 
@@ -10,9 +10,7 @@ to build out the UI as a set of Flutter Widgets that can be run on Fuchsia and h
 This repo contains code for running a vanilla [Flutter][flutter] application (iOS & Android) and a [Fuchsia][fuchsia] specific set of [modules][modular].
 
 * **modules**: Fuchsia application code using Modular APIs.
-  * **chat**: Is a Flutter app with two entry points, one for Fuchsia and one for Vanilla Flutter.
-* **services**: [FIDL][fidl] service definitions.
-* **tools**: Development helper scripts.
+  * **calendar**: Is a Flutter app with two entry points, one for Fuchsia and one for Vanilla Flutter.
 
 # Development
 
