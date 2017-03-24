@@ -15,3 +15,10 @@ FLUTTER_TARGET := modules/calendar
 FUCHSIA_TARGET := calendar
 
 include $(common_makefile)
+
+
+################################################################################
+## Project specific build
+.PHONY: build-override
+build-override:
+	@true
